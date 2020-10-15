@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".AppointmentActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details for booking appointment"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/appointmentDepartmentNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Name"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/appointmentDepartmentTypeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department Name"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/appointmentNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name : "/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/appointmentProblemNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Short Description about Problem  : "
+            android:lines="3"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/appointmentPhoneId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone : "
+            android:inputType="phone"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/appointmentAgeId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age : "
+            android:inputType="numberDecimal"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/appointmentLocationId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="location : "
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/appointmentSubmitId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/appointmentCancelId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+
+</LinearLayout>

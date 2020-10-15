@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:padding="10dp"
+    tools:context=".DoctorSignUpActivity">
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/doctor">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:text="Doctors Registration"
+            android:textColor="#FDFDFD"
+            android:textSize="40dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <EditText
+            android:id="@+id/SignUpEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/search_bg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter mail"
+            android:inputType="textEmailAddress"
+            android:textColor="#151515" />
+
+        <EditText
+            android:id="@+id/SignUpPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/search_bg"
+            android:gravity="center"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/SignUpBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editPassword"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/search_bg"
+            android:text="Registration " />
+
+        <TextView
+            android:id="@+id/SignInTxtview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonLogin"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Already Have Account"
+            android:textColor="#E4CE07"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

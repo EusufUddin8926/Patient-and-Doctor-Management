@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">HackathonViewPagerLogin</string>
+    <string name="app_doctor">Here is out doctor list for this Department.Click into doctors list to see doctors details and long click into doctor list to give appoinment.</string>
+
+    <string-array name="skin_doctor_name">
+        <item> Md. Hasib Ali</item>
+        <item> Md. Nas Ali</item>
+        <item> Md. Rahim Mia</item>
+    </string-array>
+    <string-array name="skin_doctor_email">
+        <item>hasib@gmail.com</item>
+        <item>nas@gmail.com</item>
+        <item>rahim@gmail.com</item>
+    </string-array>
+    <string-array name="skin_doctor_designation">
+        <item> M.B.B.S from Dhaka Medical College\nSkin Specialist</item>
+        <item> M.B.B.S from Khulna Medical College\nSkin Specialist</item>
+        <item> M.B.B.S from Maymensing Medical College\nSkin Specialist</item>
+    </string-array>
+    <string-array name="skin_doctor_phone">
+        <item> 01630135006</item>
+        <item> 01812345678</item>
+        <item> 01912345678</item>
+    </string-array>
+
+    <string-array name="child_doctor_name">
+        <item> Md. Abbas Mia</item>
+        <item> Samia Ahemd</item>
+        <item> Mr. Zia</item>
+    </string-array>
+    <string-array name="child_doctor_email">
+        <item>abbas@gmail.com</item>
+        <item>samia@gmail.com</item>
+        <item>zia@gmail.com</item>
+    </string-array>
+    <string-array name="child_doctor_designation">
+        <item> M.B.B.S from Khulna Medical College\nChild Specialist</item>
+        <item> M.B.B.S from Khulna Medical College\nChild Specialist</item>
+        <item> M.B.B.S from Dhaka Medical College\nChild Specialist</item>
+    </string-array>
+    <string-array name="child_doctor_phone">
+        <item> 01630135006</item>
+        <item> 01812345678</item>
+        <item> 01912345678</item>
+    </string-array>
+
+    <string-array name="corona_doctor_name">
+        <item> Fahmida Rahman</item>
+        <item> Mim Islam</item>
+        <item> Saida Afrin</item>
+    </string-array>
+    <string-array name="corona_doctor_email">
+        <item>fahmidab@gmail.com</item>
+        <item>mim@gmail.com</item>
+        <item>sadia@gmail.com</item>
+    </string-array>
+    <string-array name="corona_doctor_designation">
+        <item> M.B.B.S from Rajshahi Medical College\nHeart Specialist</item>
+        <item> M.B.B.S from Khulna Medical College\nBody Specialist</item>
+        <item> M.B.B.S from Dhaka Medical College\nStomach Specialist</item>
+    </string-array>
+    <string-array name="corona_doctor_phone">
+        <item> 01630135006</item>
+        <item> 01812345678</item>
+        <item> 01912345678</item>
+    </string-array>
+
+    <string-array name="emergency_doctor_name">
+        <item> Mr. Anil Dhube</item>
+        <item> Mr. Hasan Rahman</item>
+        <item> Md. Rahat Talukder</item>
+    </string-array>
+    <string-array name="emergency_doctor_email">
+        <item>amirb@gmail.com</item>
+        <item>hamza@gmail.com</item>
+        <item>rahima@gmail.com</item>
+    </string-array>
+    <string-array name="emergency_doctor_designation">
+        <item> Studied from Khulna Medical College\nSurgery Specialist</item>
+        <item> M.B.B.S from Khulna Medical College\nSurgery Specialist</item>
+        <item> Passed from Dhaka Medical College\nSurgery Specialist</item>
+    </string-array>
+    <string-array name="emergency_doctor_phone">
+        <item> 01630135006</item>
+        <item> 01812345678</item>
+        <item> 01912345678</item>
+    </string-array>
+
+
+    <string-array name="bone_doctor_name">
+        <item> Md. Amir Ali</item>
+        <item> Mr. Hamza Hossein</item>
+        <item> Ms. Rahima Begume</item>
+    </string-array>
+    <string-array name="bone_doctor_email">
+        <item>amirb@gmail.com</item>
+        <item>hamza@gmail.com</item>
+        <item>rahima@gmail.com</item>
+    </string-array>
+    <string-array name="bone_doctor_designation">
+        <item> M.B.B.S from Khulna Medical College\nBone Specialist</item>
+        <item> M.B.B.S from Khulna Medical College\nBone Specialist</item>
+        <item> M.B.B.S from Dhaka Medical College\nBone Specialist</item>
+    </string-array>
+    <string-array name="bone_doctor_phone">
+        <item> 01630135006</item>
+        <item> 01812345678</item>
+        <item> 01912345678</item>
+    </string-array>
+
+    <string-array name="heart_doctor_name">
+        <item> Ms. Anita Chakrabarty</item>
+        <item> Nawsin Ara Begum</item>
+        <item> Zara Khan</item>
+    </string-array>
+    <string-array name="heart_doctor_email">
+        <item>anitab@gmail.com</item>
+        <item>nawsin@gmail.com</item>
+        <item>zara@gmail.com</item>
+    </string-array>
+    <string-array name="heart_doctor_designation">
+        <item> Passed from Khulna Medical College\nHeart Specialist</item>
+        <item> M.B.B.S from Maymensingh Medical College\nHeart Specialist</item>
+        <item> Graduate from Dhaka Medical College\nHeart Specialist</item>
+    </string-array>
+    <string-array name="heart_doctor_phone">
+        <item> 01630135006</item>
+        <item> 01812345678</item>
+        <item> 01912345678</item>
+    </string-array>
+</resources>
