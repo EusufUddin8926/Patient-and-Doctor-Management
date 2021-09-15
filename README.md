@@ -28,8 +28,8 @@ https://drive.google.com/drive/folders/1FPzcDTk93arVwfemWqgKZqUfGTa0e3LT?usp=sha
 
 #
 
-### Functions
+### Databases
 
  1. Firebase Sign in method
- 2. Sqlite Database
+ 2. Sqlite Database for Appoinment
  
